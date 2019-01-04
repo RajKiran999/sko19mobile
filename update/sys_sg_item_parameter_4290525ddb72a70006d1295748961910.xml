@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>case description edit</name>
+        <parent>a7ce46c9dbf6670006d1295748961905</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-01-03 19:13:13</sys_created_on>
+        <sys_id>4290525ddb72a70006d1295748961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>case description edit</sys_name>
+        <sys_package display_value="SKO Mobile Claim Request Management" source="x_snc_sko_mobile_c">bacb4423dba6630006d12957489619dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SKO Mobile Claim Request Management">bacb4423dba6630006d12957489619dc</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_4290525ddb72a70006d1295748961910</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-01-03 19:13:13</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

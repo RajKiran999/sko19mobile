@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    //Type appropriate comment here, and begin script below
+ var caseGr = new GlideRecord("sn_customerservice_case");
+ caseGr.addQuery('sys_id', input.sys_id);
+ caseGr.query();
+	if(caseGr.next()){
+		caseGr.assigned_to  =  gs.getUserID();
+		caseGr.update();
+	}
+	
+})(input);]]></execution_script>
+        <name>case_assign_to_me_script</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-01-02 20:45:57</sys_created_on>
+        <sys_id>dcdbd185db76670006d1295748961904</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>case_assign_to_me_script</sys_name>
+        <sys_package display_value="SKO Mobile Claim Request Management" source="x_snc_sko_mobile_c">bacb4423dba6630006d12957489619dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SKO Mobile Claim Request Management">bacb4423dba6630006d12957489619dc</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_dcdbd185db76670006d1295748961904</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-01-04 19:52:51</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <template>assigned_to=^EQ</template>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=dcdbd185db76670006d1295748961904"/>
+</record_update>

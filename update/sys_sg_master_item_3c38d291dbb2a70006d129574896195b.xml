@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition/>
+        <condition_order/>
+        <item_view display_value="Assets item view">28389291dbb2a70006d12957489619f0</item_view>
+        <name>Master Item</name>
+        <screen display_value="Assets">3838d291dbb2a70006d129574896194f</screen>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-01-03 19:46:12</sys_created_on>
+        <sys_id>3c38d291dbb2a70006d129574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Master Item</sys_name>
+        <sys_package display_value="SKO Mobile Claim Request Management" source="x_snc_sko_mobile_c">bacb4423dba6630006d12957489619dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SKO Mobile Claim Request Management">bacb4423dba6630006d12957489619dc</sys_scope>
+        <sys_update_name>sys_sg_master_item_3c38d291dbb2a70006d129574896195b</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-01-03 19:46:12</sys_updated_on>
+        <table>alm_asset</table>
+    </sys_sg_master_item>
+</record_update>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>34be12d5dbb2a70006d12957489619ec</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="alm_hardware">
+    <alm_hardware action="INSERT_OR_UPDATE">
+        <account/>
+        <acquisition_method/>
+        <active_to>false</active_to>
+        <asset_tag>TESLAP100D</asset_tag>
+        <assigned/>
+        <assigned_to/>
+        <beneficiary/>
+        <checked_in/>
+        <checked_out/>
+        <ci display_value="A53 Series">abee52d5dbb2a70006d12957489619a0</ci>
+        <comments/>
+        <company/>
+        <consumer/>
+        <cost>529.99</cost>
+        <cost_center/>
+        <delivery_date/>
+        <department/>
+        <depreciated_amount>0</depreciated_amount>
+        <depreciation/>
+        <depreciation_date/>
+        <display_name>TESLAP100D - Asus A53 Series</display_name>
+        <disposal_reason/>
+        <due/>
+        <due_in/>
+        <expenditure_type/>
+        <gl_account/>
+        <install_date/>
+        <install_status>1</install_status>
+        <invoice_number/>
+        <justification/>
+        <lease_id/>
+        <location/>
+        <managed_by/>
+        <model display_value="Asus A53 Series">0c43b318c611227501522de23fcbfb9a</model>
+        <model_category display_value="Computer">81feb9c137101000deeabfc8bcbe5dc4</model_category>
+        <old_status/>
+        <old_substatus/>
+        <order_date/>
+        <owned_by/>
+        <parent/>
+        <po_number/>
+        <pre_allocated>false</pre_allocated>
+        <primary_contact/>
+        <purchase_date/>
+        <quantity>1</quantity>
+        <request_line/>
+        <resale_price>0</resale_price>
+        <reserved_for/>
+        <residual>0</residual>
+        <residual_date/>
+        <retired/>
+        <retirement_date/>
+        <salvage_value>0</salvage_value>
+        <serial_number/>
+        <skip_sync>false</skip_sync>
+        <stockroom/>
+        <substatus/>
+        <support_group/>
+        <supported_by/>
+        <sys_class_name>alm_hardware</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-01-03 20:15:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34be12d5dbb2a70006d12957489619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-01-03 20:15:36</sys_updated_on>
+        <vendor/>
+        <warranty_expiration/>
+        <work_notes/>
+    </alm_hardware>
+    <fx_price action="delete_multiple" query="id=34be12d5dbb2a70006d12957489619ec"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>resale_price</field>
+        <id>34be12d5dbb2a70006d12957489619ec</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-01-03 20:15:36</sys_created_on>
+        <sys_id>afee16d5dbb2a70006d129574896194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-01-03 20:15:36</sys_updated_on>
+        <table>alm_hardware</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-01-03 20:16:05</sys_created_on>
+        <sys_id>2e0f56d5dbb2a70006d129574896191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TESLAP100D - Asus A53 Series</sys_name>
+        <sys_package display_value="SKO Mobile Claim Request Management" source="x_snc_sko_mobile_c">bacb4423dba6630006d12957489619dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SKO Mobile Claim Request Management">bacb4423dba6630006d12957489619dc</sys_scope>
+        <sys_update_name>sys_metadata_link_2e0f56d5dbb2a70006d129574896191a</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-01-03 20:16:05</sys_updated_on>
+        <tablename>alm_asset</tablename>
+    </sys_metadata_link>
+</record_update>

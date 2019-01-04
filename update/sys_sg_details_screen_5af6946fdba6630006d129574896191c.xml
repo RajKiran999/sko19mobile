@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>true</available_offline>
+        <data_item display_value="New Cases">3a731cabdba6630006d1295748961966</data_item>
+        <description/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="list-alt">3df6d82fdba6630006d1295748961984</icon>
+        <item_view display_value="Open Claims detail item view">31f6dc2fdba6630006d129574896198a</item_view>
+        <name>Details</name>
+        <order>10</order>
+        <parent>c6f6946fdba6630006d1295748961904</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2018-12-28 23:52:13</sys_created_on>
+        <sys_id>5af6946fdba6630006d129574896191c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="SKO Mobile Claim Request Management" source="x_snc_sko_mobile_c">bacb4423dba6630006d12957489619dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SKO Mobile Claim Request Management">bacb4423dba6630006d12957489619dc</sys_scope>
+        <sys_update_name>sys_sg_details_screen_5af6946fdba6630006d129574896191c</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-01-04 20:13:12</sys_updated_on>
+    </sys_sg_details_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=5af6946fdba6630006d129574896191c"/>
+</record_update>
